@@ -15,7 +15,7 @@ public class StringOperations {
     //StringConcatenation
     public static String StringConcatenation(String s1, String s2) {
         String s3 = s1.concat(s2);
-        return s3;
+        return s1;
     }
 
     //StringLength
