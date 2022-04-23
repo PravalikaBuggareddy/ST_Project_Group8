@@ -16,7 +16,7 @@ public class String_OperationsTest {
     @Test
     public void test_Palindrome()
     {
-        assertEquals("madam",StringOperation.ReverseString("madam"));
+        assertEquals("nitin",StringOperation.ReverseString("nitin"));
     }
 
     @Test
@@ -45,4 +45,3 @@ public class String_OperationsTest {
 }
 
 
- 
