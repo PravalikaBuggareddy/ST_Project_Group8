@@ -4,16 +4,18 @@ public class StringOperations {
 // String Operation Methods
 
     //String Reverse
-    public static String ReverseString(String original) {
-        StringBuilder sb = new StringBuilder(original);
-        sb.reverse();
-        return sb.toString();
+    public String StringReverse(String original) {
+        String reverse = "";
+        int length = original.length();
+        for (int i = length - 1; i >= 0; i--)
+            reverse = reverse + original.charAt(i);
+        return reverse;
     }
 
     //StringConcatenation
     public static String StringConcatenation(String s1, String s2) {
         String s3 = s1.concat(s2);
-        return s1;
+        return s3;
     }
 
     //StringLength
@@ -61,5 +63,4 @@ public class StringOperations {
         }
     }
 }
-
 
