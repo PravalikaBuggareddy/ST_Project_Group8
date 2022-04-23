@@ -39,7 +39,7 @@ public class StringOperationsTest {
     @Test
     public void test_StringTrim()
     {
-        assertEquals("madam", StringOperation.StringTrim("  madam "));
+        assertEquals("madam", StringOperation.StringTrim(" madam "));
     }
 }
 
