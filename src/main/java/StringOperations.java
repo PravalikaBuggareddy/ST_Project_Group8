@@ -57,7 +57,7 @@ public class StringOperations {
         for(int i=ch.length-1;i>=0;i--){
             rev+=ch[i];
         }
-        return rev;
+        return null;
     }
 
 
@@ -67,13 +67,13 @@ public class StringOperations {
     //Description: This function is used to merge two strings
     public static String StringConcatenation(String s1, String s2){
         String s3 = s1.concat(s2);
-        return s1;
+        return null;
     }
     //Author: Rohith
     //Description: This function is used to give the length of string
     public String StringLength(String s1){
         int length = s1.length();
-        return String.valueOf(length);
+        return null;
     }
 
 
