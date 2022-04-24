@@ -13,7 +13,7 @@ public class StringOperations {
                 count++;
             }
         }
-        return count;
+        return count+1;
     }
 
     // Author: Pravalika
@@ -21,7 +21,7 @@ public class StringOperations {
     // This function is tested by Unit Test : test_StringTrim()
     public String StringTrim(String word) {
         word = word.trim();
-        return word;
+        return null;
     }
 
     // Author :Pravalika
@@ -42,9 +42,9 @@ public class StringOperations {
             flag = Arrays.equals(ArrayS1,ArrayS2);
         }
         if(flag)
-            return true;
-        else
             return false;
+        else
+            return true;
     }
 }
 
