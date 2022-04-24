@@ -49,5 +49,27 @@ public class StringOperations {
         else
             return true;
     }
+    //Author: Rohith
+    //Description: This function is used to reverse the given string
+    public String StringReverse(String original){
+        String reverse = " ";
+        int length = original.length();
+        for (int i = length - 1; i >= 0; i--)
+            reverse = reverse + original.charAt(i);
+        return reverse;
+    }
+    //Author: Rohith
+    //Description: This function is used to merge two strings
+    public static String StringConcatenation(String s1, String s2){
+        String s3 = s1.concat(s2);
+        return s1;
+    }
+    //Author: Rohith
+    //Description: This function is used to give the length of string
+    public static int StringLength(String s1){
+        int length = s1.length();
+        return length;
+    }
+
+
 }
-//

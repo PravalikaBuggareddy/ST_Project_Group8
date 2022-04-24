@@ -34,7 +34,28 @@ public class String_OperationsTest {
         assertTrue(StringOperation.isAnagram("rat", "tar"));
     }
 
+    //Author: Rohith Tadi
+    //Description: This test case is used to test the reversing string function
+    @Test
+    public void testreversestring(){
+        assertEquals("madam", StringOperation.StringReverse("madam"));
+    }
+
+    //Author: Rohith Tadi
+    //Description: This test case is used to test the concatenation of strings function
+    @Test
+    public void testconcatenation(){
+        assertEquals("Snowball", StringOperation.StringConcatenation("Snow", "ball"));
+    }
+    //Author: Rohith Tadi
+    //Description: This test case is used to test the length of string function
+    @Test
+    public void testlengthstring(){
+        assertEquals("15", StringOperation.StringLength("SoftwareTesting"));
+    }
 }
-//
+
+
+
 
 
