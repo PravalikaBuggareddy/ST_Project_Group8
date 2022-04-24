@@ -15,7 +15,7 @@ public class StringOperations {
                 count++;
             }
         }
-        return 0;
+        return count;
 
     }
 
@@ -24,7 +24,7 @@ public class StringOperations {
     // This function is tested by Unit Test : test_StringTrim()
     public String StringTrim(String word) {
         word = word.trim();
-        return null;
+        return word;
     }
 
     // Author: Pravalika
@@ -45,9 +45,41 @@ public class StringOperations {
             flag = Arrays.equals(ArrayS1, ArrayS2);
         }
         if(flag)
-            return false;
-        else
             return true;
+        else
+            return false;
     }
+    //Author: Rohith
+    //Description: This function is used to reverse the given string
+    public static String reverseString(String str){
+        char ch[]=str.toCharArray();
+        String rev="";
+        for(int i=ch.length-1;i>=0;i--){
+            rev+=ch[i];
+        }
+        return rev;
+    }
+
+
+
+
+    //Author: Rohith
+    //Description: This function is used to merge two strings
+    public static String StringConcatenation(String s1, String s2){
+        String s3 = s1.concat(s2);
+        return s1;
+    }
+    //Author: Rohith
+    //Description: This function is used to give the length of string
+    public String StringLength(String s1){
+        int length = s1.length();
+        return String.valueOf(length);
+    }
+
+
 }
-///////
+
+
+
+
+
