@@ -16,7 +16,7 @@ public class String_OperationsTest {
 
     @Test
     public void test_StringOccurence() {
-        assertEquals(4, StringOperations.StringOccurence("Pravallika"));
+        assertEquals(3, StringOperations.StringOccurence("Pravallika"));
     }
 
     // Author: Pravalika
