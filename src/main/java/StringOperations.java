@@ -16,7 +16,7 @@ public class StringOperations {
         return count+1;
     }
 
-    // Author: Pravalika
+    // Author:Pravalika
     // Description: The below method returns a string by removing the extra spaces at starting and ending of the string
     // This function is tested by Unit Test : test_StringTrim()
     public String StringTrim(String word) {
