@@ -12,36 +12,31 @@ public class String_OperationsTest {
         StringOperation = new StringOperations();
     }
 
-    // Test case by Pravalika
-    @Test
-    public void test_Palindrome()
-    {
-        assertEquals("madam",StringOperation.StringReverse("madam"));
-    }
-
-    @Test
-    public void test_Concatenation()
-    {
-       assertEquals("Snowball",StringOperation.StringConcatenation("Snow","ball"));
-    }
-
-    @Test
-    public void test_StringLength()
-    {
-        assertEquals(15,StringOperation.StringLength("SoftwareTesting"));
-    }
-
+    // Author: Pravalika
+    // Description: The below method tests the occurence of 'a' and returns the count and checks whwther the expected and actual count matches
     @Test
     public void test_StringOccurence()
     {
-        assertEquals(2, StringOperation.StringOccurence("madam"));
+        assertEquals(2,StringOperation.StringOccurence("Pravalika"));
     }
 
+    //Author: Pravalika
+    // Description: This test tests the StringTrim() function
     @Test
     public void test_StringTrim()
     {
-        assertEquals("madam", StringOperation.StringTrim(" madam "));
+        assertEquals("madam", StringOperation.StringTrim(" madam  "));
+    }
+
+    //Author : Pravalika
+    //Description: This test tests the isAnagram() method
+    @Test
+    public void test_isAnagram()
+    {
+        assertTrue(StringOperation.isAnagram("rat","tar"));
     }
 }
+
+
 
 
