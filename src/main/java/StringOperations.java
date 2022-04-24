@@ -24,7 +24,7 @@ public class StringOperations {
         return word;
     }
 
-    // Author : Pravalika
+    // Author :Pravalika
     // Description : The below method returns the boolean value by checking whether a string is anagram or not
     //  This function is tested by Unit Test : test_isAnagram()
     public boolean isAnagram(String str1, String str2) {

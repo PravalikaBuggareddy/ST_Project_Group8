@@ -20,7 +20,7 @@ public class String_OperationsTest {
         assertEquals(2,StringOperation.StringOccurence("Pravalika"));
     }
 
-    //Author: Pravalika
+    //Author:Pravalika
     // Description: This test tests the StringTrim() function
     @Test
     public void test_StringTrim()
@@ -28,7 +28,7 @@ public class String_OperationsTest {
         assertEquals("madam", StringOperation.StringTrim(" madam  "));
     }
 
-    //Author : Pravalika
+    //Author :Pravalika
     //Description: This test tests the isAnagram() method
     @Test
     public void test_isAnagram()
