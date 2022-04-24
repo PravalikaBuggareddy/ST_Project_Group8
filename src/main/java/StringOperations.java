@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Locale;
 
 public class StringOperations {
     //String Operations
@@ -45,19 +44,24 @@ public class StringOperations {
             flag = Arrays.equals(ArrayS1, ArrayS2);
         }
         if(flag)
-            return false;
-        else
             return true;
+        else
+            return false;
     }
     //Author: Rohith
     //Description: This function is used to reverse the given string
-    public String StringReverse(String original){
-        String reverse = " ";
-        int length = original.length();
-        for (int i = length - 1; i >= 0; i--)
-            reverse = reverse + original.charAt(i);
-        return reverse;
+    public static String reverseString(String str){
+        char ch[]=str.toCharArray();
+        String rev="";
+        for(int i=ch.length-1;i>=0;i--){
+            rev+=ch[i];
+        }
+        return rev;
     }
+
+
+
+
     //Author: Rohith
     //Description: This function is used to merge two strings
     public static String StringConcatenation(String s1, String s2){
@@ -66,9 +70,9 @@ public class StringOperations {
     }
     //Author: Rohith
     //Description: This function is used to give the length of string
-    public static int StringLength(String s1){
+    public String StringLength(String s1){
         int length = s1.length();
-        return length;
+        return String.valueOf(length);
     }
 
 
