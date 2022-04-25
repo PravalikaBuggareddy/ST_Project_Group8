@@ -5,12 +5,12 @@ public class StringOperations {
     //Author: Rohith
     //Description: This function is used to reverse the given string
     public static String reverseString(String str){
-        charch[] = str.toCharArray();
+        char ch[] = str.toCharArray();
         String rev = " ";
         for(int i = ch.length-1; i >= 0; i--){
             rev+=ch[i];
         }
-        return null;
+        return rev;
 
 
     }
@@ -22,9 +22,9 @@ public class StringOperations {
     }
     //Author: Rohith
     //Author: This function is used to give length of the string
-    public String StringLength(Strings1){
+    public String StringLength(String s1){
         int length = s1.length();
-        return null,
+        return String.valueOf(length);
     }
 
 
