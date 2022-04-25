@@ -18,7 +18,7 @@ public class StringOperations {
     //Description: This function is to merge two strings
     public static String StringConcatenation(String s1, String s2){
         String s3 = s1.concat(s2);
-        return null;
+        return s1;
     }
     //Author: Rohith
     //Author: This function is used to give length of the string

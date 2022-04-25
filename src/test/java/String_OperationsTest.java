@@ -15,7 +15,7 @@ public class String_OperationsTest {
     //Description: This test case is used to test the reverse string function
     @Test
     public void testreversestring(){
-        assertEquals("nitin", StringOperation.reverseString("nitin"));
+        assertEquals(" nitin", StringOperation.reverseString("nitin"));
     }
     //Author:Rohith tadi
     //Description: This test case is used to test the concatenation of strings function
