@@ -27,7 +27,7 @@ public class StringOperations {
 
     //Author: Pravalika
     //Description: This method returns the boolean value by checking whether a string is anagram or not
-    // This function is tested by Unit Test: test_isAnagram()
+    // This function is tested by Unit Test:test_isAnagram()
     public boolean isAnagram(String str1, String str2){
         String s1 = str1.replaceAll("\\s","");
         String s2 = str2.replaceAll("\\s","");
