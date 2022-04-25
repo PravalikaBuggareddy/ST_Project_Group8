@@ -16,7 +16,7 @@ public class StringOperations {
 
     //Author: Rohith
     //Description: This function is to merge two strings
-    public static String StringConcatenation(String s1, String s2) {
+    public static String StringConcatenation(String s1, String s2){
         String s3 = s1.concat(s2);
         return s3;
     }
@@ -50,7 +50,7 @@ public class StringOperations {
     // Author :Ibrahim
     // Description : The below method returns the number of consonants in the string
     //  This function is tested by Unit Test : test_countConsonants()
-    public static int countConsonants(String S2)
+    public int countConsonants(String S2)
     {
         int count = 0;
 
@@ -65,7 +65,6 @@ public class StringOperations {
         }
         return count;
     }
-
 
     // Author :Ibrahim
     // Description : The below method returns the number of lowercase in the string
