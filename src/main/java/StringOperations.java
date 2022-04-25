@@ -75,6 +75,29 @@ public class StringOperations {
         String Str4 = Str3.toLowerCase();
         return Str4;
     }
+
+    //Author: Pravalika
+    //Description: The below method returns the count of occurence of a letter
+    // This function is tested by Unit Test : test_StringOccurence()
+    public static int StringOccurence(String word){
+        char Character = 'a';
+        for(int i=0; i<word.length();i++){
+            count++;
+        }
+        return count;
+    }
+
+    //Author : Pravalika
+    // Description: The below method removes the extra spaces at the starting and ending of the string
+    // This function is tested by Unit Test : test_isAnagram()
+     boolean isAnagram(String str1, String str2){
+        String s1 = str1.replaceAll("\\s","");
+        String s2 = str2.replaceAll("\\s","");
+        s1.toLowerCase();
+        s2.toLowerCase();
+        flag = Arrays.equals(s1,s2);
+        return flag;
+     }
 }
 
 
