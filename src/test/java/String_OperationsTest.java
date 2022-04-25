@@ -39,7 +39,7 @@ public class String_OperationsTest {
     //Description:This test tests the count vowels method
     @Test
     public void test_countVowels(){
-        assertEquals(3, StringOperation.String_countvowels("Ibrahim"));
+        assertEquals(3, StringOperation.countVowels("Ibrahim"));
     }
     //Author: Ibrahim
     //Description: This test tests the count consonants
