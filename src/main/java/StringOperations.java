@@ -14,7 +14,7 @@ public class StringOperations {
 
     }
 
-    //Author: Rohith
+    /// Author: Rohith
     //Description: This function is to merge two strings
     public static String StringConcatenation(String s1, String s2){
         String s3 = s1.concat(s2);

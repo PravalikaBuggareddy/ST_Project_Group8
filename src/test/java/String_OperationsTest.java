@@ -71,7 +71,7 @@ public class String_OperationsTest {
         assertTrue(StringOperation.isAnagram("rat", "tar"));
     }
 
-    // Author: Pravalika
+    /// Author: Pravalika
     // Description : Integration tests which is a combination of countVowels, StringConcatenation and String Reverse
     @Test
     public void Pravalika_test_Integration(){
