@@ -11,28 +11,31 @@ public class String_OperationsTest {
         StringOperation = new StringOperations();
     }
 
-    //Author: Pravalika
-    //Description: This test tests the StringTrim() method
+    //Author: Rohith tadi
+    //Description: This test case is used to test the reverse string function
     @Test
-    public void test_StringTrim(){
-        assertEquals("madam", StringOperation.StringTrim("  madam "));
+    public void testreversestring(){
+        assertEquals("nitin", StringOperation.reverseString("nitin"));
+    }
+    //Author:Rohith tadi
+    //Description: This test case is used to test the concatenation of strings function
+    @Test
+    public void testconcatenation(){
+        assertEquals("Snow", StringOperation.StringConcatenation("Snow", "ball"));
+    }
+    //Author: Rohith tadi
+    //Descirption: This test case is used to test the length of string function
+    @Test
+    public void testlengthstring(){
+        assertEquals("15", StringOperation.StringLength("SoftwareTesting"));
     }
 
-    //Author: Pravalika
-    //Description: This test tests the StringOccurence() function
-    @Test
-    public void test_StringOccurence(){
-        assertEquals(3,StringOperation.StringOccurence("Pravalika"));
-    }
 
-    //Author: Pravalika
-    //Description: This test tests the Anagram() function
-    @Test
-    public void test_isAnagram(){
-        assertTrue(StringOperation.isAnagram("rat","tar"));
-    }
+
 
 }
+
+//
 
 
 
