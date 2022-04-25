@@ -15,19 +15,19 @@ public class String_OperationsTest {
     //Description: This test case is used to test the reverse string function
     @Test
     public void testreversestring(){
-        assertEquals(" nitin", StringOperation.reverseString("nitin"));
+        assertEquals("nitin", StringOperation.reverseString("nitin"));
     }
     //Author:Rohith tadi
     //Description: This test case is used to test the concatenation of strings function
     @Test
     public void testconcatenation(){
-        assertEquals("Snow", StringOperation.StringConcatenation("Snow", "ball"));
+        assertEquals("Snowball", StringOperation.StringConcatenation("Snow", "ball"));
     }
     //Author: Rohith tadi
     //Descirption: This test case is used to test the length of string function
     @Test
     public void testlengthstring(){
-        assertEquals("15", StringOperation.StringLength("SoftwareTesting"));
+        assertEquals(15, StringOperation.StringLength("SoftwareTesting"));
     }
     //Author: Ibrahim
     //Description: This test tests the string lowercase method
@@ -45,7 +45,7 @@ public class String_OperationsTest {
     //Description: This test tests the count consonants
     @Test
     public void test_countconsonants(){
-        assertEquals("4", StringOperation.countConsonants(("Ibrahim")));
+        assertEquals(4, StringOperation.countConsonants(("Ibrahim")));
     }
 
     // Author: Pravalika
