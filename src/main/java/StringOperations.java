@@ -23,7 +23,7 @@ public class StringOperations {
 
     //Author: Rohith
     //Author: This function is used to give length of the string
-    public int StringLength(String s1) {
+    public static int StringLength(String s1) {
         int length = s1.length();
         return length;
     }
@@ -31,7 +31,7 @@ public class StringOperations {
     // Author :Ibrahim
     // Description : The below method returns the number of vowels in the string
     //  This function is tested by Unit Test : test_countVowels()
-    public int countVowels(String S1)
+    public static int countVowels(String S1)
     {
         int count = 0;
 
@@ -50,7 +50,7 @@ public class StringOperations {
     // Author :Ibrahim
     // Description : The below method returns the number of consonants in the string
     //  This function is tested by Unit Test : test_countConsonants()
-    public int countConsonants(String S2)
+    public static int countConsonants(String S2)
     {
         int count = 0;
 
