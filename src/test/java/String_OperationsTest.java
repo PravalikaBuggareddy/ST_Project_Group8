@@ -83,6 +83,14 @@ public class String_OperationsTest {
     @Test
     public void RohithTest_Intergration(){ assertEquals(3, StringOperation.countConsonants(StringOperation.reverseString(StringOperation.StringTrim("level"))));
     }
+
+    // Author :Ibrahim
+    //Description: This is an integration test for the methods StringOccurence, StringReverse, StringLowercase
+
+    @Test
+    public void Ibrahim_Integration() {assertEquals(1,StringOperation.StringOccurence(StringOperations.reverseString(StringOperation.String_Lowercase(StringOperation.StringConcatenation("RACE","car")))));
+    }
+
 }
 
 
