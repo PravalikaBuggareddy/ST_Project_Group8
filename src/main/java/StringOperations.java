@@ -6,7 +6,7 @@ public class StringOperations {
     //Description: This function is used to reverse the given string
     public static String reverseString(String str) {
         char ch[] = str.toCharArray();
-        String rev = " ";
+        String rev = "";
         for (int i = ch.length - 1; i >= 0; i--) {
             rev += ch[i];
         }
