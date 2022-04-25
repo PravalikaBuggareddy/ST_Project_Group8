@@ -78,6 +78,8 @@ public class String_OperationsTest {
         assertEquals(3,StringOperation.countVowels("Ibrahim"));
     }
 
+    // Author : Rohith Tadi
+    //Description: This is an integration test case for the methods countconsonants,stringtrim,stringreverse
     @Test
     public void RohithTest_Intergration(){ assertEquals(3, StringOperation.countConsonants(StringOperation.reverseString(StringOperation.StringTrim("level"))));
     }
