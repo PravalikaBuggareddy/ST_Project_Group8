@@ -28,7 +28,7 @@ public class String_OperationsTest {
     }
 
     //Author: Pravalika
-    //Description: The test tests the Anagram() function
+    //Description: This test tests the Anagram() function
     @Test
     public void test_isAnagram(){
         assertTrue(StringOperation.isAnagram("rat","tar"));
