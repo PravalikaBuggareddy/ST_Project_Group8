@@ -33,7 +33,7 @@ public class String_OperationsTest {
     //Description: This test tests the string lowercase method
     @Test
     public void test_String_Lowercase(){
-        assertEquals("refer", StringOperation.String_Lowercase(REFER));
+        assertEquals("refer", StringOperation.String_Lowercase("REFER"));
     }
     //Author:Ibrahim
     //Description:This test tests the count vowels method
