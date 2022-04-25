@@ -37,14 +37,15 @@ public class String_OperationsTest {
     }
     //Author:Ibrahim
     //Description:This test tests the count vowels method
+    @Test
     public void test_countVowels(){
-        assertEquals("3", StringOperation.countVowels("Ibrahim"));
+        assertEquals(3, StringOperation.String_countvowels("Ibrahim"));
     }
     //Author: Ibrahim
     //Description: This test tests the count consonants
     @Test
-    public void test_countConsonants(){
-        assertEquals("4", StringOperation.countConsonants("Ibrahim"));
+    public void test_countconsonants(){
+        assertEquals("4", StringOperation.countConsonants(("Ibrahim")));
     }
 
 
